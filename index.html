@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
-
+  <main class="calculator">
+    <section class="calc" id="calc1">
+      <form>
+        <label for="return_on_investment">Return on investment: 
+          <input type="number" value="0" id="return_on_investment">
+        </label><br>
+        <label for="cost_of_investment">Cost of investment:
+          <input type="number" value="0" id="cost_of_investment">
+        </label><br>
+      </form>
+      <div id="">
+        <div>Return on investment</div>
+        <div id="result">0</div>
+      </div>
+    </section>
+    <section class="calc" id="calc2"></section>
+    <section class="calc" id="calc3"></section>
+  </main>
+<script src="main.js"></script>
 </body>
-
 </html>
